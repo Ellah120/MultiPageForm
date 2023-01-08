@@ -1,0 +1,119 @@
+/* @import url('https://fonts.google.com/specimen/Ubuntu'); */
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Times, serif, Geneva, Tahoma, sans-serif;
+}
+.one {
+  display: flex;
+  margin-left: 30px;
+}
+.one p {
+  margin-top: 35px;
+}
+.numOne {
+  padding-right: 20px;
+  border: 1px solid white;
+ border-radius: 50%;
+ padding-left: 11px;
+ padding-top: 7px;
+ padding-right: 11px;
+ color: white;
+ font-size: small;
+}
+.stepOne {
+  padding-left: 20px;
+  font-size: small;
+  color: white;
+  font-weight: 500;
+}
+.stepOne span {
+  font-size: x-small;
+  font-weight: 100;
+  color: hsl(229, 24%, 87%);
+}
+
+.two {
+  display: flex;
+  margin-left: 30px;
+}
+.two p {
+  margin-top: 15px;
+}
+.numTwo {
+  padding-right: 20px;
+  border: 1px solid white;
+ border-radius: 50%;
+ padding-left: 11px;
+ padding-top: 7px;
+ padding-right: 11px;
+ color: white;
+ font-size: small;
+}
+.stepTwo {
+  padding-left: 20px;
+  font-size: small;
+  color: white;
+  font-weight: 500;
+}
+.stepTwo span {
+  font-size: x-small;
+  font-weight: 100;
+  color: hsl(229, 24%, 87%);
+}
+
+.three {
+  display: flex;
+  margin-left: 30px;
+}
+.three p {
+  margin-top: 15px;
+}
+.numThree {
+  padding-right: 20px;
+  border: 1px solid white;
+ border-radius: 50%;
+ padding-left: 11px;
+ padding-top: 7px;
+ padding-right: 11px;
+ color: white;
+ font-size: small;
+}
+.stepThree {
+  padding-left: 20px;
+  font-size: small;
+  color: white;
+  font-weight: 500;
+}
+.stepThree span {
+  font-size: x-small;
+  font-weight: 100;
+  color: hsl(229, 24%, 87%);
+}
+
+.four {
+  display: flex;
+  margin-left: 30px;
+}
+.four p {
+  margin-top: 15px;
+}
+.numFour {
+  padding-right: 20px;
+  border: 1px solid white;
+ border-radius: 50%;
+ padding-left: 11px;
+ padding-top: 7px;
+ padding-right: 11px;
+ color: white;
+ font-size: small;
+}
+.stepFour {
+  padding-left: 20px;
+  font-size: small;
+  color: white;
+  font-weight: 500;
+}
+.stepFour span {
+  font-size: x-small;
+  font-weight: 100;
+  color: hsl(229, 24%, 87%);
+}
