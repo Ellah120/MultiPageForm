@@ -2,7 +2,7 @@ import bgDesktop from './bgDesktop.svg';
 import './sidebar.css';
 function Sidebar() {
   return (
-    <div className="sidebar" style={{backgroundImage: `url(${bgDesktop})`, backgroundSize: '250px' , backgroundRepeat: 'no-repeat', width: '500px', height: '800px'}}>
+    <div className="sidebar" style={{backgroundImage: `url(${bgDesktop})`, backgroundSize: '250px' , backgroundRepeat: 'no-repeat', width: '350px', height: '800px'}}>
     <div className='one'>
       <p className='numOne'>1</p>
       <p className='stepOne'> <span>STEP 1 </span><br />YOUR INFO</p>
