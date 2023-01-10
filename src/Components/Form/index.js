@@ -1,3 +1,4 @@
+import './form.css';
 import { useState } from "react";
 function Form() {
   const [name, setName] = useState('');
@@ -26,15 +27,15 @@ return (
   <form onSubmit={formHandler}>
     <label htmlFor="name">Name</label>
     <br />
-    <input type="text" value={name} onChange={nameHandler} placeholder='e.g. Stephen King' />
+    <input type="text" value={name} onChange={nameHandler} placeholder='   e.g. Stephen King' />
     <br />
     <label htmlFor="email">Email Address</label>
     <br />
-    <input type="email" value={email} onChange={emailHandler} placeholder='e.g. stephenking@lorem.com' />
+    <input type="email" value={email} onChange={emailHandler} placeholder='   e.g. stephenking@lorem.com' />
     <br />
     <label htmlFor="number">Phone Number</label>
     <br />
-    <input type="tel" value={phoneNum} onChange={numberHandler} />
+    <input type="tel" value={phoneNum} onChange={numberHandler} placeholder='   e.g. +1 234 567 890' />
     <br />
     <button>Next Step</button>
   </form>

@@ -3,7 +3,7 @@
   width: 900px;
   height: 545px;
   margin: auto;
-  background-color: aqua;
   border-radius: 2%;
   margin-top: 50px;
+  background-color: hsl(0, 0%, 100%);
 }
