@@ -1,0 +1,20 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Times, serif, Geneva, Tahoma, sans-serif;
+}
+.thank-you {
+  width: 430px;
+  margin: auto;
+  margin-left: 0;
+}
+svg{
+position: relative;
+left: 40%;
+}
+h1 {
+  text-align: center;
+  color: hsl(213, 96%, 18%);
+}
+p{
+  font-size: medium;
+  color: hsl(231, 11%, 63%) ;
+}

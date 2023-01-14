@@ -1,3 +1,6 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Times, serif, Geneva, Tahoma, sans-serif;
+}
 h1 {
   color: hsl(213, 96%, 18%);
   margin-top: 50px;
@@ -34,6 +37,12 @@ h4 {
   margin-bottom: 0;
   font-size: small;
   color: hsl(231, 11%, 63%) ;
+}
+.props-span{
+  display: block;
+  color: hsl(213, 96%, 18%);
+  font-size: small;
+  font-weight: 500;
 }
 .toggle{
   margin-top: 30px;

@@ -26,17 +26,11 @@ return (
   <p>Please provide your name, email address and phone number.</p>
   <form onSubmit={formHandler}>
     <label htmlFor="name">Name</label>
-    <br />
-    <input type="text" value={name} onChange={nameHandler} placeholder='   e.g. Stephen King' />
-    <br />
+    <input type="text" id='name' value={name} onChange={nameHandler} placeholder='   e.g. Stephen King' />
     <label htmlFor="email">Email Address</label>
-    <br />
-    <input type="email" value={email} onChange={emailHandler} placeholder='   e.g. stephenking@lorem.com' />
-    <br />
+    <input type="email" id='email' value={email} onChange={emailHandler} placeholder='   e.g. stephenking@lorem.com' />
     <label htmlFor="number">Phone Number</label>
-    <br />
-    <input type="tel" value={phoneNum} onChange={numberHandler} placeholder='   e.g. +1 234 567 890' />
-    <br />
+    <input type="tel" id='number' value={phoneNum} onChange={numberHandler} placeholder='   e.g. +1 234 567 890' />
     <button>Next Step</button>
   </form>
   </div>
