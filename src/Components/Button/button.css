@@ -1,0 +1,15 @@
+.button-one{
+  border: none;
+  background-color: hsl(0, 0%, 100%);
+}
+.button-two {
+  margin-left: 60%;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 96%, 18%);
+  width: 100px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 7px;
+  /* margin-top: 40px; */
+}

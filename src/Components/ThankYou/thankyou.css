@@ -6,15 +6,15 @@ body {
   margin: auto;
   margin-left: 0;
 }
-svg{
+#thanks-svg{
 position: relative;
 left: 40%;
 }
-h1 {
+.thanks-header{
   text-align: center;
   color: hsl(213, 96%, 18%);
 }
-p{
+.thanks-p{
   font-size: medium;
   color: hsl(231, 11%, 63%) ;
 }

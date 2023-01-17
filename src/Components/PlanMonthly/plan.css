@@ -1,56 +1,57 @@
 body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Times, serif, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
-h1 {
+.plan-header{
   color: hsl(213, 96%, 18%);
-  margin-top: 50px;
+  margin-top: 3.125rem;
   margin-bottom: 0;
 }
 .frst-p {
-  margin-top: 5px;
+  margin-top: 0.313rem;
   color: hsl(231, 11%, 63%) ;
 }
 .options {
-  margin-top: 40px;
+  margin-top: 2.5rem;
   display: flex;
 }
 .icon {
   margin-top: 0;
 }
 .arcade, .advanced, .pro {
-  width: 110px;
+  width: 6.875rem;
   border: 0.5px solid hsl(229, 24%, 87%);
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 10px;
+  padding-left: 0.938rem;
+  padding-top: 0.938rem;
+  padding-bottom: 0.938rem;
+  border-radius: 0.625rem;
 }
 .advanced, .pro {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
-h4 {
-  margin-top: 30px;
+.options-header {
+  margin-top: 1.875rem;
   margin-bottom: 0;
   color: hsl(213, 96%, 18%);
 }
-.props-p {
+.options-p {
   margin-bottom: 0;
   font-size: small;
   color: hsl(231, 11%, 63%) ;
 }
-.props-span{
+.options-span{
   display: block;
   color: hsl(213, 96%, 18%);
   font-size: small;
   font-weight: 500;
 }
 .toggle{
-  margin-top: 30px;
+  margin-top: 1.875rem;
   background-color: hsl(231, 100%, 99%);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 .month, .year {
 font-weight: 700;
@@ -62,23 +63,23 @@ font-size: small;
 .year {
   color: hsl(231, 11%, 63%);
 }
-button {
-  margin-top: 60px;
+/* button.planBtn-one, button.planBtn-two {
+  margin-top: 3.75rem;
 }
-.btn-one{
+.planBtn-one{
   border: none;
   color: hsl(231, 11%, 63%) ;
   background-color: hsl(0, 0%, 100%);
   font-weight: 700;
 }
-.btn-two {
+.planBtn-two {
   margin-left: 60%;
   color: hsl(0, 0%, 100%);
   background-color: hsl(213, 96%, 18%);
-  width: 100px;
+  width: 6.25rem;
   border: none;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 7px;
-  margin-top: 70px;
-}
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.438rem;
+  margin-top: 4.375rem;
+} */
