@@ -30,7 +30,7 @@ function AddonsMonthly(props) {
        <span className="addons-grey">Custom theme on your profile</span>
        <span className="addons-span">{props.storage}</span>
       </label>
-      <Button back={<Link to='/planmonthly'>Go Back</Link>}  next={<Link to='/thankyou'>Next Step</Link>}/>
+      <Button back={<Link to='/planmonthly' style={{color:'hsl(231, 11%, 63%)', textDecoration: 'none', backgroundColor: 'hsl(0, 0%, 100%)', fontWeight: '700', border: 'none'}}>Go Back</Link>}  next={<Link to='/finishup' style={{color:'hsl(0, 0%, 100%)', textDecoration: 'none'}}>Next Step</Link>} styles={{marginTop: '40px'}}/>
     </form>
     </div>
   )

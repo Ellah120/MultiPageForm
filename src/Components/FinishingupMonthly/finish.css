@@ -1,0 +1,61 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, Times, serif, Geneva, Tahoma, sans-serif;
+}
+.finish-div {
+  width: 430px;
+}
+.finish-header {
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: hsl(213, 96%, 18%);
+}
+.main-p {
+  margin-top: 5px;
+  color: hsl(231, 11%, 63%);
+}
+.map-div{
+ background-color: hsl(231, 100%, 99%);
+ padding: 30px;
+ margin-top: 40px;
+ border-radius: 20px;
+}
+div.finishplan, div.finish-addonsone, div.finish-addonstwo, div.finish-addonslast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.finishplan  span {
+font-weight: 600;
+color: hsl(213, 96%, 18%);
+font-size: 14px;
+margin: 0;
+}
+span.finish-changespan {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+hr {
+  margin-top: 30px;
+ opacity: 0.2;
+}
+div.finish-addonsone p, div.finish-addonstwo p {
+  font-size: 14px;
+  color: hsl(231, 11%, 63%);
+  margin-top:  2px;
+  margin-bottom: 10px;
+} 
+div.finish-addonsone p.finish-addonsptwo, div.finish-addonstwo p.finish-addonspfour {
+  color: hsl(213, 96%, 18%) ;
+}
+p.last-p {
+  color: hsl(231, 11%, 63%);
+  font-size: 13px;
+}
+p.finish-sum {
+  color: hsl(243, 100%, 62%);
+  font-size: large;
+  font-weight: 600;
+}
+div.finish-addonslast {
+  padding: 10px 35px 0 35px;
+}

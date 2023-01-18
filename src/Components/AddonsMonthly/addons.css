@@ -61,10 +61,10 @@ color: hsl(243, 100%, 62%);
   font-size: small;
   font-weight: 500;
 }
-button.addonBtn-one, button.addonBtn-two {
+/* button.addonBtn-one, button.addonBtn-two {
   margin-top: 40px;
-}
-.addonBtn-one{
+} */
+/* .addonBtn-one{
   border: none;
   color: hsl(231, 11%, 63%) ;
   background-color: hsl(0, 0%, 100%);
@@ -80,4 +80,4 @@ button.addonBtn-one, button.addonBtn-two {
   padding-bottom: 12px;
   border-radius: 7px;
   margin-top: 40px;
-}
+} */

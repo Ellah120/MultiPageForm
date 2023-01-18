@@ -26,8 +26,8 @@ function PlanMonthly (props) {
     <span className='options-span'>{props.freespan}</span>
     </div>
    </div>
-   <p className='toggle'><span className='month'>Monthly</span> {props.toggle} <span className='year'>Yearly</span></p>
-  <Button back={<Link to='/' style={{color:'hsl(231, 11%, 63%)', textDecoration: 'none', backgroundColor: 'hsl(0, 0%, 100%)', fontWeight: '700', border: 'none'}}>Go Back</Link>}  next={<Link to='/addonsmonthly'>Next Step</Link>}/>
+   <p className='toggle'><span className='month'>Monthly</span> <button>{props.toggle}</button> <span className='year'>Yearly</span></p>
+  <Button back={<Link to='/' style={{color:'hsl(231, 11%, 63%)', textDecoration: 'none', backgroundColor: 'hsl(0, 0%, 100%)', fontWeight: '700', border: 'none'}}>Go Back</Link>}  next={<Link to='/addonsmonthly' style={{color:'hsl(0, 0%, 100%)', textDecoration: 'none'}}>Next Step</Link>} styles={{marginTop: '70px'}}/>
     </div>
   )
 }
