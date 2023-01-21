@@ -53,6 +53,10 @@ body {
   text-align: center;
   border-radius: 0.313rem;
 }
+.toggle button {
+  background-color:hsl(231, 100%, 99%) ;
+  border: none;
+}
 .month, .year {
 font-weight: 700;
 font-size: small;
